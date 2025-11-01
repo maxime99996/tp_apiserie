@@ -1,0 +1,16 @@
+meta {
+  name: Trouver serie avec son ID (ici 1)
+  type: http
+  seq: 3
+}
+
+get {
+  url: http://localhost:8080/series/1
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+  timeout: 0
+}
